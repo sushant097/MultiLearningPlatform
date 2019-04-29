@@ -10,8 +10,22 @@ Steps to perform Live Video Streaming:
 3.    Then, Once the Websocket connection is established then we send the chunk of video in form of blob and send to through the websocket.
 > Blobs allow you to construct file like objects on the client that you can pass to apis that expect urls instead of requiring the server provides the file. See [here](https://www.javascripture.com/Blob)
 4.   In sender end we receive the blob through [JavaScript Websocket](https://www.linode.com/docs/development/introduction-to-websockets/) and with the help of [WebRTC](https://en.wikipedia.org/wiki/WebRTC) we convert blob into video url and play in Browser.
-5.    <b> The above steps are repeatedly perform to perform live video streaming.
+5.  The above steps are repeatedly perform to perform live video streaming.
   
+### Tools Used 
+1.	JAVA
+2.	Spring Framework
+3.	MYSQL
+4.	Javascript
+5.	Jquery
+6.	Angular JS
+7.	MediaStream Recorder
+8.	Websocket 
+### Support Browser
+1. Chrome (Highly recommend)
+2. Mozilla also
+
+<i?Integrating Java WebSockets (JSR-356) with SpringBoot See [here](https://stackoverflow.com/a/51860211/7338066) i have answered it.</i>
 
 #### Note: No any database is add here, you can add make your own database SQL or ORACLE and integrate it. But the project Schema Diagram and extra ProjectTable MYSQL Query is included there inside /images directory. This project is suceesfully implemented in SQL maria-DB of XAMPP server.
 
