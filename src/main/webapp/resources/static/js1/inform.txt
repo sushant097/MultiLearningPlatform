@@ -1,0 +1,19 @@
+ $.ajax({
+        	url: 'uploadFile', // replace with your own server URL
+            data: formData,
+            cache: false,
+            contentType: false,//'multipart/form-data'
+            processData: false,
+            type: 'POST',
+            success: function(response) {
+                if (response === 'success') {
+                    alert('successfully uploaded recorded blob');
+                    document.getElementById('header').innerHTML ="successfully uploaded recorded blob";
+                }else{
+                	alert(response);//error
+                }
+            },
+        	error: function(){
+        		alert("Error Occured While Uploading!");	
+        	}
+        });

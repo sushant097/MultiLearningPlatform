@@ -1,0 +1,6 @@
+<!-- https://mvnrepository.com/artifact/org.springframework.integration/spring-integration-websocket -->
+<dependency>
+    <groupId>org.springframework.integration</groupId>
+    <artifactId>spring-integration-websocket</artifactId>
+    <version>4.1.0.RELEASE</version>
+</dependency>
