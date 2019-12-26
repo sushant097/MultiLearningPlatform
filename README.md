@@ -25,7 +25,7 @@ Steps to perform Live Video Streaming:
 1. Chrome (Highly recommend)
 2. Mozilla also
 
-<i Integrating Java WebSockets (JSR-356) with SpringBoot See [here](https://stackoverflow.com/a/51860211/7338066) i have answered it.</i>
+<i> Integrating Java WebSockets (JSR-356) with SpringBoot See [here](https://stackoverflow.com/a/51860211/7338066) i have answered it.</i>
 
 #### Note: No any database is add here, you can add make your own database SQL or ORACLE and integrate it. But the project Schema Diagram and extra ProjectTable MYSQL Query is included there inside /images directory. This project is suceesfully implemented in SQL maria-DB of XAMPP server.
 
